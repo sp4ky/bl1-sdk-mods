@@ -1,0 +1,14 @@
+[project]
+name = "remove_eridian_weapon_slowdown"
+version = "1.0.0"
+authors = [{ name = "sp4ky" }]
+description = "Removes the movement speed penalty when holding Eridian weapons. Inspired by Yeti's BL1-only QoLSlop."
+dependencies = ["willow1_mod_manager >= 2.3"]
+
+[tool.sdkmod]
+name = "Remove Eridian Weapon Slowdown"
+version = "1.0.0"
+supported_games = ["BL1", "BL1E"]
+coop_support = "HostOnly"
+download = "https://github.com/sp4ky/bl1-sdk-mods/raw/refs/heads/main/remove_eridian_weapon_slowdown/remove_eridian_weapon_slowdown.sdkmod"
+license = {name = "GPL3", url = "https://choosealicense.com/licenses/gpl-3.0/"}
