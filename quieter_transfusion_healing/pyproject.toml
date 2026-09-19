@@ -1,0 +1,14 @@
+[project]
+name = "quieter_transfusion_healing"
+version = "1.0.0"
+authors = [{ name = "sp4ky" }]
+description = "Lowers the volume of the healing sound cue from Transfusion grenades. Inspired by Yeti's BL1-only QoLSlop."
+dependencies = ["willow1_mod_manager >= 2.3"]
+
+[tool.sdkmod]
+name = "Quieter Transfusion Healing"
+version = "1.0.0"
+supported_games = ["BL1", "BL1E"]
+coop_support = "ClientSide"
+download = "https://github.com/sp4ky/bl1-sdk-mods/raw/refs/heads/main/quieter_transfusion_healing/quieter_transfusion_healing.sdkmod"
+license = {name = "GPL3", url = "https://choosealicense.com/licenses/gpl-3.0/"}
