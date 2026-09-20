@@ -1,0 +1,14 @@
+[project]
+name = "only_drop_relevant_artifacts"
+version = "1.0.0"
+authors = [{ name = "sp4ky" }]
+description = "Stops artifacts that none of the players can use from spawning in loot. Inspired by Yeti's BL1-only QoLSlop."
+dependencies = ["willow1_mod_manager >= 2.3"]
+
+[tool.sdkmod]
+name = "Only Drop Relevant Artifacts"
+version = "1.0.0"
+supported_games = ["BL1", "BL1E"]
+coop_support = "HostOnly"
+download = "https://github.com/sp4ky/bl1-sdk-mods/raw/refs/heads/main/only_drop_relevant_artifacts/only_drop_relevant_artifacts.sdkmod"
+license = {name = "GPL3", url = "https://choosealicense.com/licenses/gpl-3.0/"}
