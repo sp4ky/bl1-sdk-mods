@@ -8,7 +8,11 @@ Each mod is a Python package (a folder with `__init__.py`) that loads through th
 
 | Mod | Description |
 |-----|-------------|
-| _none yet_ | |
+| [Remove Eridian Weapon Slowdown](remove_eridian_weapon_slowdown/) | Removes the movement speed penalty from holding Eridian weapons. |
+| [Quieter Transfusion Healing](quieter_transfusion_healing/) | Lowers the volume of the healing sound cue from Transfusion grenades. |
+| [Only Drop Relevant Class Mods](only_drop_relevant_class_mods/) | Class mods that no player in the game can use stop spawning in loot. |
+| [Only Drop Relevant Artifacts](only_drop_relevant_artifacts/) | Artifacts that no player in the game can use stop spawning in loot. |
+| [Knoxx Class Mods Everywhere](knoxx_class_mods_everywhere/) | Makes the class mods from The Secret Armory of General Knoxx drop from enemies everywhere. |
 
 ## Links
 
